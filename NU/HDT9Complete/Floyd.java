@@ -28,7 +28,7 @@ public class Floyd {
     public Floyd(){
         
         try {
-            a.obtenerArchivo("C:/Users/Javier Bucaro/Documents/CuartoSemestre/Algoritmos/HDT9/HDT9/NU/HDT9/datos.txt");
+            a.obtenerArchivo("datos.txt");
             a.arregloNombres(); // Nombre de los nodos
             D = a.matrizCostos(); // Peso de los arcos entre nodos
             P = new int[25][25]; // Matriz de nodos intermedios
